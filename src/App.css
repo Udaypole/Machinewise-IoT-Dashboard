@@ -1,0 +1,82 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f4f4f4;
+}
+
+.dashboard {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+header {
+  background-color: #222;
+  color: #fff;
+  padding: 1rem;
+  text-align: center;
+}
+
+main {
+  flex: 1;
+  padding: 2rem;
+  text-align: center;
+}
+
+.sensor-cards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.card {
+  padding: 1rem 2rem;
+  border-radius: 10px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: #fff;
+  min-width: 120px;
+}
+
+.normal {
+  background-color: #4caf50;
+}
+
+.alert {
+  background-color: #f44336;
+}
+
+.label {
+  display: block;
+  font-size: 0.9rem;
+}
+
+.value {
+  font-size: 1.5rem;
+}
+
+.status {
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+
+.status.healthy {
+  color: green;
+}
+
+.status.warning {
+  color: orange;
+}
+
+.status.critical {
+  color: red;
+}
+
+footer {
+  background-color: #222;
+  color: #aaa;
+  text-align: center;
+  padding: 0.5rem;
+}
