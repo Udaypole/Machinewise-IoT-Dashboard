@@ -25,4 +25,3 @@ If I were to take this dashboard into a production environment, I’d focus on:
 - **Error handling & retry logic** for unstable connections
 - **Backend integration** with actual sensor hardware via serial port or IoT gateway
 
-This was a fun and insightful project that demonstrates the foundation for building scalable, real-time dashboards in the Industrial IoT space.
